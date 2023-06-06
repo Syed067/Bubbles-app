@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Bubbles App</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <h1 >Bubbles App</h1>
+</head>
+<body>
+    <div id="outer-div">
+        <div id="circle">
+        </div>
+       <div class="stick"></div>
+        <div class="arrow" ></div>
+        <div class="button">
+            
+            <button onclick="hit()">Hit</button>
+
+           <button onclick="reset()">reset</button>
+    </div>
+    
+
+       
+        </div>
+        <style>
+            @keyframes moveStick {
+                100% {
+                    transform: translateX(-1005px);
+                }
+            }
+            
+            @keyframes moveArrow {
+                100% {
+                    transform: translateX(-1005px);
+                }
+            }
+        </style>
+</body>
+</html>
